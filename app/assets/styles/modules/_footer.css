@@ -1,9 +1,7 @@
 .footer{
-    height: 50px;
-    position: relative;
-    
-    &__bg{
-        background-color: $mainBlue;
-        color: #ffffff;
+    background-color: $mainBlue;
+    color: #ffffff;
+    padding: .5rem 0;
+    text-align: center;
+    font-weight: 100;
     }
-}
