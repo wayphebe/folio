@@ -1,0 +1,25 @@
+.navigation{
+    transform: translateY(-70px);
+
+    &__right{
+        float: right; 
+    }
+
+    ul{
+        position:relative;
+        margin: 0;
+    }
+    li{
+        list-style: none;
+        float: left;
+        padding-right: 20px;
+    }
+    a{
+        color: $mainGreen;
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 1.3rem;
+        display:block;
+        padding: 5px 0;
+    }
+}
