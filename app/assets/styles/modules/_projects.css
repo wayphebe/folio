@@ -1,0 +1,17 @@
+.projects{
+    position: relative;
+
+    &__title{
+        font-weight:300;
+        color: $mainGreen;
+        font-size: 2.9rem;
+        margin: 0;
+    }
+    &__subtitle{
+        font-weight:100;
+        color: $mainGreen;
+        font-size: 2.5rem;
+        margin: 0;
+    }
+
+}

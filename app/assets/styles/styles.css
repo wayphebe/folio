@@ -2,4 +2,8 @@
 @import "base/_global";
 @import "base/_variables";
 @import "modules/_large-hero";
-
+@import "modules/_wrapper";
+@import "modules/_page-section";
+@import "modules/_projects";
+@import "modules/_headline";
+@import "modules/_footer"
