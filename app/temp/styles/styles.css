@@ -361,8 +361,11 @@ img{
 
 .header{
     position: absolute;
+    position: fixed;
     z-index: 2;
-    width: 100%;
+    width: 100%; 
+
+    
 }
 
 .header__logo{
@@ -391,7 +394,7 @@ img{
     }
 
 .navigation a{
-        color: #49c44f;
+        color: #29E98F;
         text-decoration: none;
         font-weight: 300;
         font-size: 1.3rem;
@@ -415,20 +418,20 @@ img{
 
 .large-hero__title{
         font-weight: 300;
-        color: #49c44f;
+        color: #29E98F;
         font-size: 4.8rem;
         margin: 0;
     }
 
 .large-hero__subtitle{
         font-weight: 300;
-        color: #49c44f;
+        color: #29E98F;
         font-size: 2.9rem;
         margin: 0;
     }
 
 .large-hero__description{
-        color: #49c44f;
+        color: #29E98F;
         font-size: 1.875rem;
         font-weight: 300;
         text-shadow: 2px 2px 0 rgba(0,0,0,.01);
@@ -457,14 +460,14 @@ img{
 
 .projects__title{
         font-weight:300;
-        color: #49c44f;
+        color: #29E98F;
         font-size: 2.9rem;
         margin: 0;
     }
 
 .projects__subtitle{
         font-weight:100;
-        color: #49c44f;
+        color: #29E98F;
         font-size: 2.5rem;
         margin: 0;
     }
