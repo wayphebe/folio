@@ -42,32 +42,18 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var Person = __webpack_require__(1);
-
-	alert("13");
-
-	var wei = new Person("wei", "blue");
-	wei.greet();
-
-	var li = new Person("li", "green");
-	li.greet();
-
-
-/***/ },
-/* 1 */
 /***/ function(module, exports) {
 
-	function Person(name, favColor){
-	    this.name = name;
-	    this.favColor = favColor;
-	    this.greet = function(){
-	        console.log("He there! my name is " +this.name+ " and my fav color is " + this.favColor+ ".");
-	    }
-	}
+	import MobileMenu from './modules/MobileMenu';
+	import StickyHeader from './modules/StickyHeader';
 
-	module.exports = Person;
+
+	var mobileMenu = new MobileMenu();
+	var stickyHeader = new StickyHeader();
+
+
+
+
 
 /***/ }
 /******/ ]);

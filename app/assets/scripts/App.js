@@ -1,9 +1,9 @@
-var Person = require('./modules/Person');
+import MobileMenu from './modules/MobileMenu';
+import StickyHeader from './modules/StickyHeader';
 
-alert("13");
 
-var wei = new Person("wei", "blue");
-wei.greet();
+var mobileMenu = new MobileMenu();
+var stickyHeader = new StickyHeader();
 
-var li = new Person("li", "green");
-li.greet();
+
+
