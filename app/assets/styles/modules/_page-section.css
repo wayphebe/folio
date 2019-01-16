@@ -1,3 +1,8 @@
 .page-section{
     padding: 4.5rem 0;
+
+    a{
+        text-emphasis: none;
+        text-decoration: none;
+    }
 }

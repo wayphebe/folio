@@ -363,7 +363,7 @@ img{
     position: absolute;
     position: fixed;
     z-index: 2;
-    width: 100%; 
+    width: 100%;
 
     
 }
@@ -371,6 +371,10 @@ img{
 .header__logo{
         position: absoloute;
         margin: 25px 0;
+    }
+
+.header--dark{
+        background-color: white; 
     }
 
 .navigation{
@@ -452,6 +456,12 @@ img{
 .page-section{
     padding: 4.5rem 0;
 }
+
+.page-section a{
+        -webkit-text-emphasis: none;
+                text-emphasis: none;
+        text-decoration: none;
+    }
 
 .projects{
     position: relative;
