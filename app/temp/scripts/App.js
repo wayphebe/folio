@@ -63,7 +63,7 @@
 	    this.name = name;
 	    this.favColor = favColor;
 	    this.greet = function(){
-	        console.log("Hello there! my name is " +this.name+ " and my fav color is " + this.favColor+ ".");
+	        console.log("He there! my name is " +this.name+ " and my fav color is " + this.favColor+ ".");
 	    }
 	}
 
