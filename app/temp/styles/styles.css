@@ -496,4 +496,43 @@ img{
     font-weight: 100;
     }
 
+.title{
+    font-weight: 300;
+    color: #323648;
+    text-align: center;
+}
+
+.title__intro{
+
+    }
+
+.title__intro-list{
+        list-style: none;
+    }
+
+.project-section{
+    padding: 8.5rem 0;
+}
+
+.main{
+    padding-left: 300px;
+    padding-right: 300px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main__headline{
+        font-weight: 400;
+        font-size: 1.8rem;
+        color: #323648;
+    }
+
+.main__text{
+        font-weight: 300;
+        font-size: 1.3rem;
+        color: #323648;
+        line-height: 2.5rem;
+    }
+
 /* @import 'modules/_reveal-item'; */

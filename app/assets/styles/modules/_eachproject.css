@@ -1,0 +1,16 @@
+.title{
+    font-weight: 300;
+    color: $mainGrey;
+    text-align: center;
+
+
+   
+    
+
+    &__intro{
+
+    }
+    &__intro-list{
+        list-style: none;
+    }
+}

@@ -9,4 +9,8 @@
 @import "modules/_projects";
 @import "modules/_headline";
 @import "modules/_footer";
+@import "modules/_eachproject";
+@import "modules/_project-section";
+@import "modules/_main";
+
 /* @import 'modules/_reveal-item'; */

@@ -1,0 +1,20 @@
+.main{
+    padding-left: 300px;
+    padding-right: 300px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;  
+
+    &__headline{
+        font-weight: 400;
+        font-size: 1.8rem;
+        color: $mainGrey;
+    }
+
+    &__text{
+        font-weight: 300;
+        font-size: 1.3rem;
+        color: $mainGrey;
+        line-height: 2.5rem;
+    }
+}
