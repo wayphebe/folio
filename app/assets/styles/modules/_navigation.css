@@ -22,4 +22,12 @@
         display:block;
         padding: 5px 0;
     }
+    
+    a:hover {
+        color: $mainBlue;
+      }
+    
+    a:active{
+        color: mainBlue;
+      }
 }
