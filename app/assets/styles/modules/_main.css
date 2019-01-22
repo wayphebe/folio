@@ -10,11 +10,35 @@
         font-size: 1.8rem;
         color: $mainGrey;
     }
+    &__subheadline{
+        font-weight: 500;
+        font-size: 1.5rem;
+        color: $mainBlue;
+    }
+    &__subsubheadline{
+        font-weight: 400;
+        font-size: 1.3rem;
+        color: $mainGreen;
+    }
 
     &__text{
         font-weight: 300;
         font-size: 1.3rem;
         color: $mainGrey;
         line-height: 2.5rem;
+    }
+    &__points{
+        font-weight: 400;
+        font-size: 1.3rem;
+        color:$mainBlue;
+        line-height: 3rem;
+
+    }
+    &__subpoints{
+        font-weight: 300;
+        font-size: 1.3rem;
+        color:$mainGrey;
+        line-height: 2.5rem;
+
     }
 }

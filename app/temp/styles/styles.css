@@ -563,11 +563,39 @@ a:hover + .hidden{
         color: #323648;
     }
 
+.main__subheadline{
+        font-weight: 500;
+        font-size: 1.5rem;
+        color: #90a3a5;
+    }
+
+.main__subsubheadline{
+        font-weight: 400;
+        font-size: 1.3rem;
+        color: #29E98F;
+    }
+
 .main__text{
         font-weight: 300;
         font-size: 1.3rem;
         color: #323648;
         line-height: 2.5rem;
+    }
+
+.main__points{
+        font-weight: 400;
+        font-size: 1.3rem;
+        color:#90a3a5;
+        line-height: 3rem;
+
+    }
+
+.main__subpoints{
+        font-weight: 300;
+        font-size: 1.3rem;
+        color:#323648;
+        line-height: 2.5rem;
+
     }
 
 /* @import 'modules/_reveal-item'; */
