@@ -11,7 +11,7 @@
     }
 
     &__title{
-        font-weight: 300;
+        font-weight: 100;
         color: $mainGreen;
         font-size: 4.8rem;
         margin: 0;
@@ -25,9 +25,9 @@
     }
 
     &__description{
-        color: $mainGreen;
-        font-size: 1.875rem;
-        font-weight: 300;
+        color: $mainGrey;
+        font-size: 2.2rem;
+        font-weight: 200;
         text-shadow: 2px 2px 0 rgba(0,0,0,.01);
         max-width: 30rem ;
         margin-left: auto;

@@ -433,7 +433,7 @@ a:hover {
     }
 
 .large-hero__title{
-        font-weight: 300;
+        font-weight: 100;
         color: #29E98F;
         font-size: 4.8rem;
         margin: 0;
@@ -447,9 +447,9 @@ a:hover {
     }
 
 .large-hero__description{
-        color: #29E98F;
-        font-size: 1.875rem;
-        font-weight: 300;
+        color: #323648;
+        font-size: 2.2rem;
+        font-weight: 200;
         text-shadow: 2px 2px 0 rgba(0,0,0,.01);
         max-width: 30rem ;
         margin-left: auto;
@@ -597,5 +597,36 @@ a:hover + .hidden{
         line-height: 2.5rem;
 
     }
+
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.profile{
+    grid-area: 1/1/2/2;
+}
+
+.bio{
+    grid-area: 1/2/2/3;
+
+}
+
+a{
+    color: #29E98F;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.3rem;
+    padding: 5px 0;
+}
+
+a:hover {
+    color: #90a3a5;
+  }
+
+a:active{
+    color: mainBlue;
+  }
 
 /* @import 'modules/_reveal-item'; */
