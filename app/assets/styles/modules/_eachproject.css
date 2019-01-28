@@ -1,16 +1,57 @@
 .title{
     font-weight: 300;
-    color: $mainGrey;
+    font-size: 0.9rem;
     text-align: center;
-
-
+    background-color: $mainGrey;
+    color: $mainBlue;
+    background-image: linear-gradient(#323648,#3A3F4F,#3C4151,rgb(65,70,86,0.99));
    
-    
+    @mixin atSmall {
+        font-weight: 280;
+        font-size: 1.5rem;
+        
+    }
+    @mixin atMedium {
+        font-weight: 250;
+        font-size: 1.6rem;
+        
+      }
+  
+    @mixin atLarge {
+        font-weight: 200;
+        font-size: 2.5rem;
+        
+      }
 
     &__intro{
 
     }
     &__intro-list{
+        font-weight: 270;
+        font-size: 1.2rem;
         list-style: none;
+        color: $mainBlue;
+        line-height: 2rem;
+
+        @mixin atSmall {
+            font-weight: 270;
+            font-size: 1.5rem;
+            line-height: 2.2rem;
+        
+        }
+        @mixin atMedium {
+            font-weight: 270;
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+            
+          }
+      
+        @mixin atLarge {
+            font-weight: 270;
+            font-size: 1.8rem;
+            line-height: 2.5rem;
+            
+          }
+    
     }
 }

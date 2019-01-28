@@ -1,42 +1,84 @@
 .main{
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;  
 
+
+    @mixin atSmall {
+        padding-left: 100px;
+        padding-right: 100px;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    @mixin atMedium {
+        padding-left: 250px;
+        padding-right: 250px;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+  
+    @mixin atLarge {
+        padding-left: 370px;
+        padding-right: 370px;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
     &__headline{
-        font-weight: 400;
+        font-weight: 500;
         font-size: 1.8rem;
-        color: $mainGrey;
+        color: $subGreen;
+    }
+    &__focus{
+        font-weight: 350;
+        font-size: 1.5rem;
+        font-style: italic;
+        color: $subGreen;
     }
     &__subheadline{
-        font-weight: 500;
-        font-size: 1.5rem;
-        color: $mainBlue;
+        font-weight: 390;
+        font-size: 1.4rem;
+        color: $subGreen;
     }
     &__subsubheadline{
-        font-weight: 400;
+        font-weight: 200;
         font-size: 1.3rem;
         color: $mainGreen;
     }
 
     &__text{
         font-weight: 300;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         color: $mainGrey;
         line-height: 2.5rem;
+
+
+        @mixin atSmall {
+            font-size: 1.3rem;
+        }
+        @mixin atMedium {
+            font-size: 1.3rem;
+          }
+      
+        @mixin atLarge {
+            font-size: 1.3rem;
+          }
     }
     &__points{
         font-weight: 400;
         font-size: 1.3rem;
-        color:$mainBlue;
+        color:$subGreen;
         line-height: 3rem;
 
     }
     &__subpoints{
         font-weight: 300;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         color:$mainGrey;
         line-height: 2.5rem;
 

@@ -1,6 +1,7 @@
 @import "normalize.css";
 @import "base/_global";
 @import "base/_variables";
+@import "base/_mixin";
 @import "base/_shadow";
 @import "modules/_header";
 @import "modules/_navigation";
@@ -14,6 +15,7 @@
 @import "modules/_eachproject";
 @import "modules/_project-section";
 @import "modules/_main";
+@import "modules/_wrapper2";
 @import "modules/_about";
 
 /* @import 'modules/_reveal-item'; */

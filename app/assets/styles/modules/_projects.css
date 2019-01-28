@@ -3,21 +3,105 @@
 
     &__title{
         font-weight:300;
-        color: $mainGreen;
-        font-size: 2.9rem;
+        color: $mainGrey;
+        font-size: 1.9rem;
         margin: 0;
+
+        @mixin atSmall {
+            margin-top: 40px;
+            margin-bottom: 0px;
+            margin-right: 20px;
+            margin-left: 20px;
+            font-weight:300;
+            font-size: 2.5rem;
+        }
+        @mixin atMedium {
+            margin-top: 40px;
+            margin-bottom: 0px;
+            margin-right: 20px;
+            margin-left: 20px;
+            font-weight:300;
+            font-size: 2.5rem;
+        }
+      
+        @mixin atLarge {
+            margin-top: 40px;
+            margin-bottom: 0px;
+            margin-right: 20px;
+            margin-left: 20px;
+            font-weight:300;
+            font-size: 2.5rem;
+        }
     }
     &__subtitle{
-        font-weight:100;
-        color: $mainGreen;
-        font-size: 2.5rem;
+        font-weight:200;
+        color: $subGreen;
+        font-size: 1.4rem;
         margin: 0;
+        line-height: 1.5;
+
+        @mixin atSmall {
+            margin-top: 2px;
+            margin-bottom: 15px;
+            margin-right: 15px;
+            margin-left: 20px;
+            font-weight:200;
+            color: $subGreen;
+            font-size: 1.4rem;
+            line-height: 1.5;
+        }
+        @mixin atMedium {
+            margin-top: 20px;
+            margin-bottom: 15px;
+            margin-right: 20px;
+            margin-left: 20px;
+            font-weight:200;
+            font-size: 2rem;
+        }
+      
+        @mixin atLarge {
+            margin-top: 40px;
+            margin-bottom: 0px;
+            margin-right: 20px;
+            margin-left: 20px;
+            font-weight:200;
+            font-size: 2rem;
+          }
     }
     &__subtitle:hover{
-        font-weight:100;
-        color: $mainBlue;
-        font-size: 2.5rem;
+        font-weight:200;
+        color: $mainGreen;
+        font-size: 1.4rem;
         margin: 0;
+        line-height: 1.5;
+
+        @mixin atSmall {
+            margin-top: 20px;
+            margin-bottom: 15px;
+            margin-right: 15px;
+            margin-left: 20px;
+            font-weight:200;
+            font-size: 1.4rem;
+            line-height: 1.5;
+        }
+
+        @mixin atMedium {
+            margin-top: 20px;
+            margin-bottom: 15px;
+            margin-right: 20px;
+            margin-left: 20px;
+            font-weight:200;
+            font-size: 2rem;
+        }
+      
+        @mixin atLarge {
+            margin-top: 40px;
+            margin-bottom: 0px;
+            margin-right: 20px;
+            margin-left: 20px;
+            font-weight:200;
+            font-size: 2rem;
+          }
     }
 
 
