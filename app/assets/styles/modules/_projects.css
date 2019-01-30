@@ -3,7 +3,7 @@
 
     &__title{
         font-weight:300;
-        color: $mainGrey;
+        color: $subGreen;
         font-size: 1.9rem;
         margin: 0;
 
@@ -35,7 +35,7 @@
     }
     &__subtitle{
         font-weight:200;
-        color: $subGreen;
+        color: $mainGrey;
         font-size: 1.4rem;
         margin: 0;
         line-height: 1.5;
@@ -46,7 +46,6 @@
             margin-right: 15px;
             margin-left: 20px;
             font-weight:200;
-            color: $subGreen;
             font-size: 1.4rem;
             line-height: 1.5;
         }

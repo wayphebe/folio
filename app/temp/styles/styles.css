@@ -550,7 +550,7 @@ a:hover {
 
 .projects__title{
         font-weight:300;
-        color: #323648;
+        color: #579989;
         font-size: 1.9rem;
         margin: 0;
     }
@@ -593,7 +593,7 @@ a:hover {
 
 .projects__subtitle{
         font-weight:200;
-        color: #579989;
+        color: #323648;
         font-size: 1.4rem;
         margin: 0;
         line-height: 1.5;
@@ -607,7 +607,6 @@ a:hover {
             margin-right: 15px;
             margin-left: 20px;
             font-weight:200;
-            color: #579989;
             font-size: 1.4rem;
             line-height: 1.5
     }
@@ -998,5 +997,43 @@ a:hover {
 a:active{
     color: mainBlue;
   }
+
+.feature{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0 20px;
+}
+
+@media (min-width: 530px) {
+
+.feature{
+        grid-gap: 0 50px
+}
+    }
+
+@media (min-width: 800px) {
+
+.feature{
+        grid-gap: 0 60px
+}
+    }
+
+@media (min-width: 1200px) {
+
+.feature{
+        grid-gap: 0 80px
+}
+    }
+
+.featurepic{
+    grid-area: 1/1/2/2;
+}
+
+.featuretext{
+    grid-area: 1/2/2/3;
+
+}
 
 /* @import 'modules/_reveal-item'; */

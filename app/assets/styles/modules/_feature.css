@@ -1,0 +1,28 @@
+.feature{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0 20px;
+
+    @mixin atSmall {
+        grid-gap: 0 50px;
+      }
+  
+      @mixin atMedium {
+        grid-gap: 0 60px;
+      }
+  
+      @mixin atLarge {
+        grid-gap: 0 80px;
+      }
+}
+
+.featurepic{
+    grid-area: 1/1/2/2;
+}
+
+.featuretext{
+    grid-area: 1/2/2/3;
+
+}
