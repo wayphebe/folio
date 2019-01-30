@@ -24,5 +24,25 @@
 
 .featuretext{
     grid-area: 1/2/2/3;
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: $mainGrey;
+    line-height: 1.1rem;
+
+
+    @mixin atSmall {
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+      }
+  
+      @mixin atMedium {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+      }
+  
+      @mixin atLarge {
+        font-size: 1.1rem;
+        line-height: 1.9rem;
+      }
 
 }

@@ -1033,7 +1033,38 @@ a:active{
 
 .featuretext{
     grid-area: 1/2/2/3;
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: #323648;
+    line-height: 1.1rem;
 
 }
+
+@media (min-width: 530px) {
+
+.featuretext{
+        font-size: 1.1rem;
+        line-height: 1.3rem
+
+}
+    }
+
+@media (min-width: 800px) {
+
+.featuretext{
+        font-size: 1.1rem;
+        line-height: 1.5rem
+
+}
+    }
+
+@media (min-width: 1200px) {
+
+.featuretext{
+        font-size: 1.1rem;
+        line-height: 1.9rem
+
+}
+    }
 
 /* @import 'modules/_reveal-item'; */
