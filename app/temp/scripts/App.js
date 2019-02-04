@@ -63,6 +63,8 @@
 	// import MobileMenu from './modules/MobileMenu';
 	var stickyHeader = new _StickyHeader2.default();
 
+	//  var revealOnScroll = new RevealOnScroll();
+
 /***/ },
 /* 1 */
 /***/ function(module, exports, __webpack_require__) {

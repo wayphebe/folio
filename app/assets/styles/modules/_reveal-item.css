@@ -1,8 +1,8 @@
 .reveal-item{
     opacity: 0;
-    transition: opacity 1.5s ease-out;
+    /* transition: opacity 1.5s ease-out; */
 
-    &--is-visible{
+    /* &--is-visible{
         opacity: 1;
-    }
+    } */
 }

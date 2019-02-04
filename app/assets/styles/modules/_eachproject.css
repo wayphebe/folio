@@ -1,4 +1,6 @@
 .title{
+    position: relative;
+    z-index: 1;
     font-weight: 300;
     font-size: 0.9rem;
     text-align: center;

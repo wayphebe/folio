@@ -1,11 +1,14 @@
 .projects{
     position: relative;
 
+    
+
     &__title{
         font-weight:300;
         color: $subGreen;
         font-size: 1.9rem;
         margin: 0;
+        
 
         @mixin atSmall {
             margin-top: 40px;
