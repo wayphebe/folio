@@ -19,6 +19,8 @@
 @import "modules/_scroller";
 @import "modules/_about";
 @import "modules/_feature";
+@import "modules/_home.css";
+@import "modules/_homewrapper.css";
 /* @import "modules/_reveal-item"; */
 
 /* @import 'modules/_reveal-item'; */

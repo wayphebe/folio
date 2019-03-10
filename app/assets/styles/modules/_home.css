@@ -1,0 +1,51 @@
+.home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px 60px;
+    /* margin: 100px 200px 100px 200px; */
+}
+.thum1{
+    grid-area: 1/1/2/2;
+    width: 400px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   
+}
+.thum2{
+    grid-area: 1/2/2/3;
+    width: 400px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #47817A;
+}
+.thum3{
+    grid-area: 2/1/3/2;
+    width: 400px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color:  #47817A;
+}
+.thum4{
+    grid-area: 2/2/3/3;
+    width: 400px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color:  #47817A;
+}
+
+/* .thum1:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.thum2:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.thum3:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.thum4:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+} */
+.home a:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}

@@ -54,6 +54,14 @@
 
 	var _StickyHeader2 = _interopRequireDefault(_StickyHeader);
 
+	var _Scroller = __webpack_require__(4);
+
+	var _Scroller2 = _interopRequireDefault(_Scroller);
+
+	var _Sidenav = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./modules/Sidenav\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+
+	var _Sidenav2 = _interopRequireDefault(_Sidenav);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	// import RevealOnScroll from './modules/RevealOnScroll';
@@ -62,6 +70,8 @@
 	// var revealOnScroll = new RevealOnScroll();
 	// import MobileMenu from './modules/MobileMenu';
 	var stickyHeader = new _StickyHeader2.default();
+	var scroller = new _Scroller2.default();
+	var sidenav = new _Sidenav2.default();
 
 	//  var revealOnScroll = new RevealOnScroll();
 
@@ -11239,6 +11249,26 @@
 	  Waypoint.Adapter = NoFrameworkAdapter
 	}())
 	;
+
+/***/ },
+/* 4 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	var about = document.getElementById('about');
+
+	function Scroll() {
+	    var posy = window.pageYOffset;
+
+	    if (posy > 800) {
+	        about.classList.add('show-about');
+	    } else {
+	        about.classList.remove('show-about');
+	    }
+	}
+
+	window.addEventListener('scroll', Scroll);
 
 /***/ }
 /******/ ]);

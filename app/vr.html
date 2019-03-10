@@ -1,0 +1,99 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+    <script src="https://rawgit.com/Utopiah/googlepoly-load-component/master/googlepoly-load-component.js"></script>
+    <script src="https://cdn.rawgit.com/matthewbryancurtis/aframe-star-system-component/db4f1030/index.js"></script> 
+    <script src="https://unpkg.com/aframe-extras.ocean@3.13.1/dist/aframe-extras.ocean.min.js"></script>
+    <script src="https://unpkg.com/super-hands@3.0.0/dist/super-hands.min.js"></script>
+    <script src="https://cdn.rawgit.com/donmccurdy/aframe-physics-system/v3.3.0/dist/aframe-physics-system.min.js"></script>
+    <script src="https://unpkg.com/aframe-click-drag-component"></script>
+  </head>
+  <body>
+    <a-scene >
+      
+      <a-text value="Wei li" position="0 1 -5"></a-text>
+        <a-plane  click-drag static-body  position="0 -3 -4" rotation="-90 0 0" width="10000" height="10000" color="#007F95"></a-plane>
+      
+      <a-sky color="black"></a-sky>
+      <<a-ocean color="#92E2E2" width="25" depth="25" density="15" speed="2"></a-ocean>
+      <a-entity star-system></a-entity>
+       
+        <a-entity id="camera-rig" position="0 4.28 7.578">
+          <a-camera id="camera" look-controls-enabled="true" keyboard-controls="fpsMode: true">
+            <a-cursor color="white" fuse="true"></a-cursor>
+             <a-entity oculus-touch-controls="hand: left"></a-entity>
+             <a-entity oculus-touch-controls="hand: right"></a-entity>
+          </a-camera>
+  </a-entity>
+
+<!--       shark model source: https://poly.google.com/view/8Ke5qCnWxsZ  -->
+      <a-entity id="shark"position="-1.3 0.1 -2.8" scale="0.2 0.2 0.2" rotation="0 130 0" gpoly="polyid:8Ke5qCnWxsZ; API_KEY: AIzaSyC5Q5BE4yDouhDoGvlcWP-1hkYGdew6h74;"   >
+       <a-animation attribute="position" to="0 0.1 -5" direction="alternate" dur="6000"
+      repeat="indefinite"></a-animation>
+      </a-entity>
+
+       <a-entity id="mountain"position="6.8 0.83 -10" scale="0.002 0.002 0.002" rotation="0 0 0" gpoly="polyid:3NvfPMBZrBQ; API_KEY: AIzaSyC5Q5BE4yDouhDoGvlcWP-1hkYGdew6h74;"event-set__enter="_event: mouseenter; scale: 0.005 0.005 0.005"
+              
+                event-set__leave="_event: mouseleave; scale:0.002 0.002 0.002"
+              ></a-entity>
+<!-- kayak model source: https://poly.google.com/view/8d-cgFdVEVN-->
+      <a-entity id="kayak"position="1 0.424 -3"  rotation="0 45 0" gpoly="polyid:8d-cgFdVEVN; API_KEY: AIzaSyC5Q5BE4yDouhDoGvlcWP-1hkYGdew6h74;"  event-set__enter="_event: mouseenter; scale: 1.2 1.2 1.2"
+              
+                event-set__leave="_event: mouseleave; scale: 1 1 1">
+        <a-animation attribute="position" to="1.1 0.424 -3.5" direction="alternate" dur="3000"
+      repeat="indefinite"></a-animation>
+      </a-entity>
+      
+      <a-entity id="moon" position="0 25 -75"
+                scale="0.01 0.01 0.01" gpoly="polyid:0MkZemiaxF7; API_KEY:AIzaSyC5Q5BE4yDouhDoGvlcWP-1hkYGdew6h74;" >
+        </a-entity>
+      <a-entity id="light" light="type: ambient; color:#818181" position="0 25 -75"></a-entity>
+      
+       <a-entity id="lamp" position="1.711 0.893 -3.55"
+                scale="0.8 0.8 0.8" gpoly="polyid:af3rlwHlJxn; API_KEY:AIzaSyC5Q5BE4yDouhDoGvlcWP-1hkYGdew6h74;" >
+          <a-animation attribute="position" to="1.5 0.893 -3.5" direction="alternate" dur="3000"
+      repeat="indefinite"></a-animation>
+        </a-entity>
+       <a-entity id="lamplight" light="type:point; color:#fafca9" position="1.711 0.893 -3.55">
+          <a-animation attribute="position" to="1.5 0.893 -3.5" direction="alternate" dur="3000"
+      repeat="indefinite"></a-animation>
+      </a-entity>
+      
+    
+    
+      
+       <a-entity id="bird" click-drag dynamic-body click-drag position="5.331 1.158 -7.553"
+                scale="0.002 0.002 0.002" gpoly="polyid:2jmH3trzPFf; API_KEY:AIzaSyC5Q5BE4yDouhDoGvlcWP-1hkYGdew6h74;" >
+         </a-entity>
+    
+      <a-entity id="whale" click-drag dynamic-body position="5.125 2.198 -1.815"  rotation="0 45 0" gpoly="polyid:deFCESYxZZD; API_KEY: AIzaSyC5Q5BE4yDouhDoGvlcWP-1hkYGdew6h74;">
+      </a-entity>
+    
+   
+    <a-entity id="bottle" click-drag dynamic-body position="-0.119 0.634 -2.137"  rotation="0 45 0"  scale="0.05 0.05 0.05"gpoly="polyid:1ZqK8HQ8w65; API_KEY: AIzaSyC5Q5BE4yDouhDoGvlcWP-1hkYGdew6h74;">
+      </a-entity>
+    
+   
+  
+  
+    
+     
+       
+       
+ 
+
+    </a-scene>
+    <script>
+        let cameraRig = document.querySelector("#camera-rig");
+        let camera = document.querySelector("#camera");
+        let waypoint = document.querySelector("#mountain");
+
+            // attach gaze fuse handle to waypoint
+            waypoint.addEventListener("click", function(e) {
+            // move the camera rig to the new location
+            cameraRig.setAttribute("position", this.getAttribute("position"));
+            });
+        </script>
+  </body>
+</html>

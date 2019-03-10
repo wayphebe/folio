@@ -4,8 +4,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+    opacity: 0;
+    transition: opacity .5s ease, top .2s ease;
 }
 
+.show-about{
+    opacity: 1;
+}
 .profile{
     grid-area: 1/1/2/2;
 }

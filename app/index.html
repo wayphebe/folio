@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--build:css assets/styles/styles.css-->
     <link rel="stylesheet" href="temp/styles/styles.css">
+    
     <!--endbuild-->
     
 </head>
@@ -22,13 +23,15 @@
             <img src="assets/images/logo.svg" width="50px">
             </a>
         </div>
+            
             <nav class="navigation navigation__right">
                 <ul>
                     <!-- <li><a href="index.html">Home</a></li> -->
-                    <li><a href="index.html">Projects</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
                     </ul>
                 </nav>
+            
     </div>
     </header>
 
@@ -44,8 +47,35 @@
                 </div>
             </div>
        </div> -->
+       <main class="projects page-section" id="projects">
+            <div class="homewrapper">
+                <div class="home">
+                    <a href="voco.html">
+                  
+                            <img src="assets/images/thumb1.png">
+           
+                    <a href="vr.html">
+                        <a-scene embedded src="vr.html">
+                                <a-sphere position="0 1.25 -6" radius="1.25" color="#EF2D5E"></a-sphere>
+                                <a-box position="-1 0.5 -4.2" rotation="0 45 0" width="1" height="1" depth="1" color="#4CC3D9"></a-box>
+                                <a-cylinder position="1 0.75 -5" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+                                <a-plane position="0 0 -5.5" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+                                <a-sky color="#FFFFFF"></a-sky>
+                            </a-scene>
+                       
+                       </a>
+                    <a href="vi.html">
+                        <img src="assets/images/thumb3.png">
+                       </a>
+                    <a href="visuals.html">
+                            <img src="assets/images/thumb4.png">
 
-    <div class="projects page-section" id="projects">
+                        </a>
+                    
+           </div>
+        </div>
+        </main>
+    <!-- <div class="projects page-section" id="projects">
         <div class="wrapper2__U">
             <h1 class="projects__title">Problems I designed for:</h1>
             
@@ -74,6 +104,27 @@
             
         </div>
             
+        </div> -->
+    
+        <div class="homewrapper__a about" id="about">
+                <div class="profile wrapper">
+                    
+                    <img src="assets/images/profile.JPG" alt="profile picture" width="400" class="fixed">
+                </div>
+    
+                <div class="bio">
+                <p class="main__text">Wei Li<br>
+                        <strong>Observe | Focus | Empathize</strong><br><br><br>
+                        Born in 1996 in Chongqing, China.<br>
+                        Graduated from Beihang University in 2018 with a BA in English Literature.<br>
+                        Currently studying Human-Computer Interaction at University of Michigan.
+                    </p><br>
+                <p class="main__text ">
+                    Find me: 
+                             <a href="https://www.linkedin.com/in/weiliio/">linkedin</a>
+                    |
+                             <a href="https://github.com/wayphebe">github</a>
+                </div>
         </div>
 
     <footer class="footer">
@@ -83,6 +134,8 @@
         </footer>
 <!--build:js assets/scripts/App.js-->
 <script src="/temp/scripts/App.js"></script>
+
 <!--endbuild-->
+<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
 </body>
 </html>
