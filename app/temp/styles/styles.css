@@ -1273,6 +1273,11 @@ a:active{
 }
     }
 
+.visuals{
+    margin-left: 320px;
+    padding-top: 150px;
+}
+
 /* @import "modules/_reveal-item"; */
 
 /* @import 'modules/_reveal-item'; */
