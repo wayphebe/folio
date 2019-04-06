@@ -49,3 +49,14 @@
 .home a:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+
+.text{
+    opacity: 0;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    
+}
+
+a:hover .text{
+    opacity: 1;
+}
